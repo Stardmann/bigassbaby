@@ -55,7 +55,6 @@ caption {
 }
 
 body {
-  width: 800px;
   margin: 0 auto;
   background-color: black;
   padding: 0 20px 20px 20px;
@@ -87,7 +86,7 @@ a:visited {
 }
 
 header {
-	border: 1px solid white;
+	margin: -10px -25px;
 }
 
 .links-list a {
@@ -102,4 +101,33 @@ header {
 
 ul {
 	padding-left: 15px;
+}
+
+.boxa {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,10,131,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.boxb {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,28,186,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+aside {
+	height: 800px;
+    width: 320px;
+	margin: 2%;
+	padding: 1%;
+    background-color: purple;
+    float: right;
+    border-radius: 5px;
+}
+
+.content-list li {
+	list-style-type: none;
+	margin: 20px;
+}
+
+h3 {
+	margin-left: 30px;
 }
